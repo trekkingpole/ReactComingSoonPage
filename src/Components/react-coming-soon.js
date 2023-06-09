@@ -43,7 +43,7 @@ export default function ComingSoon({
         color: textColor ? textColor : "#000",
         backgroundRepeat: no-repeat,
         backgroundSize: cover,
-        height: 100vh
+        height: "100vh"
       }}
     >
       <div className={styles.content}>
