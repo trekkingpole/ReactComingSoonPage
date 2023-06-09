@@ -43,7 +43,6 @@ export default function ComingSoon({
         color: textColor ? textColor : "#000",
         backgroundRepeat: no-repeat,
         backgroundSize: cover,
-        backgroundPosition: 50%,
         height: 100vh
       }}
     >
