@@ -41,8 +41,8 @@ export default function ComingSoon({
         backgroundImage: image ? `url(${image})` : "",
         backgroundColor: bgColor ? bgColor : "#fff",
         color: textColor ? textColor : "#000",
-        backgroundRepeat: no-repeat,
-        backgroundSize: cover,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
         height: "100vh"
       }}
     >
