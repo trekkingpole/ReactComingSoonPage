@@ -40,7 +40,11 @@ export default function ComingSoon({
       style={{
         backgroundImage: image ? `url(${image})` : "",
         backgroundColor: bgColor ? bgColor : "#fff",
-        color: textColor ? textColor : "#000"
+        color: textColor ? textColor : "#000",
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        height: 100vh;
       }}
     >
       <div className={styles.content}>
